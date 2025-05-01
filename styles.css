@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #dbcbbd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    height: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 400px;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.social-buttons {
+    margin-top: 40px;
+}
+
+.boton {
+    display: flex;
+    background-color: #9b8779;
+    border-radius: 30px;
+    margin: 20px auto;
+    width: 85%;
+    text-align: left;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.boton span {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.boton img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    margin: 190px 0;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    clear: both;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #9b8779;
+    font-weight: bold;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #9b8779;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
